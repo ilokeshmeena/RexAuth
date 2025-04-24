@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PatternLockView">
+        <attr name="plv_dotCount" format="integer" />
+        <attr name="plv_pathWidth" format="dimension" />
+        <attr name="plv_colorNormal" format="color" />
+        <attr name="plv_colorCorrect" format="color" />
+        <attr name="plv_colorWrong" format="color" />
+    </declare-styleable>
+</resources>

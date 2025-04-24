@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base theme -->
+    <style name="Theme.RexAuth.Base" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimaryContainer">@color/cardview_light_background</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.RexAuth.Medium</item>
+    </style>
+
+    <!-- Text appearances -->
+    <style name="TextAppearance.RexAuth.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+    <style name="TextAppearance.RexAuth.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:lineSpacingExtra">2sp</item>
+    </style>
+
+    <!-- Button styles -->
+    <style name="Widget.RexAuth.TextButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+    </style>
+
+    <!-- Shape appearances -->
+    <style name="ShapeAppearance.RexAuth.Medium" parent="ShapeAppearance.Material3.Corner.Medium">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ShapeAppearance.RexAuth.Card" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    <style name="TextAppearance.RexAuth.ToolbarTitle" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">?attr/colorOnPrimaryContainer</item>
+    </style>
+
+    <style name="TextAppearance.RexAuth.ToolbarSubtitle" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">?attr/colorOnPrimaryContainer</item>
+    </style>
+</resources>

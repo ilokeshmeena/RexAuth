@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Primary Colors -->
+    <color name="primary_50">#F5EDFF</color>
+    <color name="primary_100">#E7DDFF</color>
+    <color name="primary_200">#D0BCFF</color>
+    <color name="primary_300">#B399FF</color>
+    <color name="primary_400">#9A7DFF</color>
+    <color name="primary_500">#8561FF</color>
+    <color name="primary_600">#6F46FF</color>
+    <color name="primary_700">#5D2AFF</color>
+    <color name="primary_800">#4A00EB</color>
+    <color name="primary_900">#3A00B7</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary_50">#F2F2F7</color>
+    <color name="secondary_100">#E5E5EC</color>
+    <color name="secondary_200">#C8C8D5</color>
+    <color name="secondary_300">#ACACBE</color>
+    <color name="secondary_400">#9090A7</color>
+    <color name="secondary_500">#747490</color>
+    <color name="secondary_600">#585879</color>
+    <color name="secondary_700">#3C3C62</color>
+    <color name="secondary_800">#20204B</color>
+    <color name="secondary_900">#0A0A34</color>
+
+    <!-- Error Colors -->
+    <color name="error_50">#FFEBEE</color>
+    <color name="error_100">#FFCDD2</color>
+    <color name="error_200">#EF9A9A</color>
+    <color name="error_300">#E57373</color>
+    <color name="error_400">#EF5350</color>
+    <color name="error_500">#F44336</color>
+    <color name="error_600">#E53935</color>
+    <color name="error_700">#D32F2F</color>
+    <color name="error_800">#C62828</color>
+    <color name="error_900">#B71C1C</color>
+
+    <!-- Neutral Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_50">#FAFAFA</color>
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_400">#BDBDBD</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray_800">#424242</color>
+    <color name="gray_900">#212121</color>
+
+
+    <!-- Authentication Specific -->
+    <color name="auth_success">#4CAF50</color>
+    <color name="auth_warning">#FFC107</color>
+    <color name="auth_locked">#FF5722</color>
+
+    <!-- Pattern Lock Colors -->
+    <color name="pattern_normal">@color/gray_400</color>
+    <color name="pattern_correct">@color/primary_500</color>
+    <color name="pattern_error">@color/error_500</color>
+
+    <!-- PIN View Colors -->
+    <color name="pin_normal">@color/gray_200</color>
+    <color name="pin_filled">@color/primary_500</color>
+    <color name="pin_error">@color/error_500</color>
+</resources>

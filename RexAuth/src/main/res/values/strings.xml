@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RexAuth</string>
+
+    <!-- Biometric Auth -->
+    <string name="biometric_auth_title">Biometric Authentication</string>
+    <string name="biometric_auth_subtitle">Verify your identity to continue</string>
+    <string name="use_pin_pattern">Use PIN/Pattern</string>
+    <string name="use_biometric">Use Biometric</string>
+
+    <!-- PIN Auth -->
+    <string name="pin_auth_title">Enter your PIN</string>
+    <string name="pin_auth_subtitle">Enter your PIN to continue</string>
+
+    <!-- Pattern Auth -->
+    <string name="pattern_auth_title">Draw your pattern</string>
+    <string name="pattern_auth_subtitle">Draw your pattern to continue</string>
+
+    <!-- Common -->
+    <string name="attempts_remaining">Attempts remaining: %d</string>
+    <string name="account_locked">Account locked. Try again in %s</string>
+    <string name="auth_success">Authentication successful</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="forgot_pattern">Forgot pattern</string>
+</resources>
